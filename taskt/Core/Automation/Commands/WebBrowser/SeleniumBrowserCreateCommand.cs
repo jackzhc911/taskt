@@ -120,8 +120,11 @@ namespace taskt.Core.Automation.Commands
             }
             else
             {
+                //IE Mode，給財稅內網用
+                var ieOptions = new InternetExplorerOptions();
+                ieOptions.AttachToEdgeChrome = true;
                 driverService = OpenQA.Selenium.IE.InternetExplorerDriverService.CreateDefaultService(driverPath);
-                webDriver = new OpenQA.Selenium.IE.InternetExplorerDriver((OpenQA.Selenium.IE.InternetExplorerDriverService)driverService, new OpenQA.Selenium.IE.InternetExplorerOptions());
+                webDriver = new OpenQA.Selenium.IE.InternetExplorerDriver((OpenQA.Selenium.IE.InternetExplorerDriverService)driverService, ieOptions);
             }
 
 
