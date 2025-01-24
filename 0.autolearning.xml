@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="e827c8b8-1675-4b20-ba13-0cfa453ef92b" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" v_Comment="local variables" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="AddVariableCommand" CommandID="191829fe-0e90-44b5-8573-42fe1f6ac176" CommandName="AddVariableCommand" IsCommented="false" SelectionName="New Variable" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" v_Comment="課程網址" CommandEnabled="true" v_userVariableName="vURL" v_Input="https://elearn.hrd.gov.tw/info/10037785" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="AddVariableCommand" CommandID="adb84a9f-346f-41fc-bbca-8ab3d8c931d3" CommandName="AddVariableCommand" IsCommented="false" SelectionName="New Variable" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" v_Comment="課程序號，li_從1起算" CommandEnabled="true" v_userVariableName="vELEM" v_Input="//*[@id=&quot;courses_list&quot;]/div[3]/ul/li[15]/span[1]/a" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="AddVariableCommand" CommandID="5b125a0c-3848-49c0-84e5-f36f3afbb289" CommandName="AddVariableCommand" IsCommented="false" SelectionName="New Variable" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" v_Comment="課程名稱" CommandEnabled="true" v_userVariableName="vTITLE" v_Input="職場霸凌防治及處理定義篇" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="de71144b-b5ef-4ece-9bfc-88f7dd77641f" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" v_Comment="chrome --remote-debugging-port=9222 --user-data-dir=c:\temp" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserCreateCommand" CommandID="b6d572fb-5e24-4150-a1f2-caf9517776ba" CommandName="SeleniumBrowserCreateCommand" IsCommented="false" SelectionName="Create Browser" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" v_Comment="" CommandEnabled="true" v_InstanceName="default" v_EngineType="Chrome" v_DebuggingOptions="9222" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserNavigateURLCommand" CommandID="224f812e-3951-45e7-8593-98cb1dd04a68" CommandName="SeleniumBrowserNavigateURLCommand" IsCommented="false" SelectionName="Navigate to URL" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" v_Comment="114年彰縣套裝課程" CommandEnabled="true" v_InstanceName="default" v_URL="https://elearn.hrd.gov.tw/info/10040895" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="483a9e9b-df63-4b32-8ec7-af595e37cbd1" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;course_tab&quot;]/a[2]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.094122" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="WebActionParamTable012325.094122">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="a01b9383-b827-402f-8390-e8824d0b0f05" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="vELEM">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.085657">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.085657" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.085657" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchWindowCommand" CommandID="3215c5b2-b803-4fe3-9778-b1fd34247358" CommandName="SeleniumBrowserSwitchWindowCommand" IsCommented="false" SelectionName="Switch Browser Window" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_WindowMatchType="Window URL" v_MatchSpecification="Exact Match" v_CaseSensitiveMatch="Yes" v_MatchParameter="{vURL}" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="4c4109e9-1d0b-470f-b883-b68c68f438b4" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" v_Comment="上課去" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;course-info-bottom&quot;]/div[2]/button">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.094358">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.094358" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.094358" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseCommand" CommandID="6f0dfc8f-fdc8-443b-991e-6deea1ac31c5" CommandName="PauseCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="0372ef2f-48f0-4000-93a6-f58985dadb20" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="13" PauseBeforeExeucution="false" v_Comment="上課的區塊" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="BeginNumberOfTimesLoopCommand" CommandID="3a2b0c1d-2fa7-4f89-9809-810a4e1a0dca" CommandName="BeginNumberOfTimesLoopCommand" IsCommented="true" SelectionName="Loop Number Of Times" DefaultPause="0" LineNumber="14" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="12" v_LoopStart="0" />
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="14f9e289-c7c6-4deb-a4b7-499be12f8e16" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+          <v_KeyActions>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Key" type="xs:string" minOccurs="0" />
+                    <xs:element name="Action" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Key>Tab [Tab]</Key>
+                  <Action>Key Press (Down + Up)</Action>
+                </SendAdvancedKeyStrokesCommand012325.104856>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_KeyActions>
+          <v_KeyUpDefault>Yes</v_KeyUpDefault>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="EndLoopCommand" CommandID="7c2816dd-66a3-411c-a1b5-80c8fcc1cf45" CommandName="EndLoopCommand" IsCommented="true" SelectionName="End Loop" DefaultPause="0" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="b85d6e50-4dfc-4c88-8fc0-3f8e8de3a271" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="17" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="BeginNumberOfTimesLoopCommand" CommandID="85202059-ba60-46a6-bc00-1e1c3de013e0" CommandName="BeginNumberOfTimesLoopCommand" IsCommented="true" SelectionName="Loop Number Of Times" DefaultPause="0" LineNumber="18" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="3" v_LoopStart="0" />
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="PauseCommand" CommandID="5857d48c-a2a1-40ab-9fc5-3c2c072ccca9" CommandName="PauseCommand" IsCommented="true" SelectionName="Pause Script" DefaultPause="0" LineNumber="19" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="600000" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="1a602064-91d6-490b-bdb2-d3d250c9b1d1" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="20" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+          <v_KeyActions>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Key" type="xs:string" minOccurs="0" />
+                    <xs:element name="Action" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Key>Tab [Tab]</Key>
+                  <Action>Key Press (Down + Up)</Action>
+                </SendAdvancedKeyStrokesCommand012325.104856>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_KeyActions>
+          <v_KeyUpDefault>Yes</v_KeyUpDefault>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="0ad2f2c5-fbf4-44ce-b711-ad6b635ab119" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="21" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+          <v_KeyActions>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Key" type="xs:string" minOccurs="0" />
+                    <xs:element name="Action" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Key>Enter [Return]</Key>
+                  <Action>Key Press (Down + Up)</Action>
+                </SendAdvancedKeyStrokesCommand012325.104856>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_KeyActions>
+          <v_KeyUpDefault>Yes</v_KeyUpDefault>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="EndLoopCommand" CommandID="ec145406-8758-4ca7-aa63-e3374370761b" CommandName="EndLoopCommand" IsCommented="true" SelectionName="End Loop" DefaultPause="0" LineNumber="22" PauseBeforeExeucution="false" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ImageRecognitionCommand" CommandID="871e76cb-c150-40b8-81ab-7c8a3a535a7b" CommandName="ImageRecognitionCommand" IsCommented="true" SelectionName="Image Recognition" DefaultPause="0" LineNumber="23" PauseBeforeExeucution="false" CommandEnabled="true" v_ImageCapture="Qk1WNwAAAAAAADYAAAAoAAAAVAAAACoAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z8/P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+DtOj//82a////////////cJvN/3BwcP//zZr/mpvN////zf///////////////////////////4Obzf//5rX/g7To/82bcP///////////83///+1hJr/zf/o/3Bwmv9wcHD//82a////////////mpvN////zf/N////zZua/////////////////5rN///otIP/////////////////////////////////teb//+i0mv+15v//cHCD/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw/82bcP//////////////////////////////////////////////////////////////////////oKCg//////////////////////////////////////////////////////////////////////////////////////+DtOj/cHBw/3BwcP+DcHD//+a1/5rN///otIP/cJvN/3BwcP9wcHD/cHBw/4NwcP//5rX//////4Obzf//5rX//////4O06P/otIP//////83///+1hJr////o//////+azf///82a////////////cJvN/3BwcP9wcHD/tZtw/4OEtf//5rX//////5rN///otIP//////83///+1hJr////o////////////teb//+i0mv//////////////////////g5vN///mtf//////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+DtOj/6M2a/5qEtf/o/83/g4S1/5q0tf/otIP/mpvN////zf+azf//6LSD/////////////////4Obzf//5rX//////83///+1hJr////o/83///+1hJr////o//////+azf///82a////////////mpvN////zf/N////zZua/+j///9whLX//82a/5rN///otIP/teb//5pwg////83/////////////////teb//+i0mv//////////////////////g5vN///mtf//////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+DtOj//82a/5q06P//5rX//////5rN///otIP/mpvN////zf+azf//6LSD/////////////////4Obzf+1zbX/cHCD/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw/5pwcP+azc3//82a////////////mpvN////zf/N////zZua////////////g5vN/5q0tf+1tIP/tYSa////6P///////////5rN////zZr/teb//+i0mv//////cJvN/3BwcP9wcHD/cHBw/3BwcP9wcHD/g3Bw///mtf//////////////////////////////////////////////////////////////////////z8/P/////////////////////////////////////////////////////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP/otIP/cJvN/3BwcP9wcHD/cHBw/5pwcP///83//////4Obzf//5rX//////+j///+ahLX////N/83///+1hJr////o//////+azf///82a////////////cJvN/3BwcP9wcHD/zZtw////////////6P///3CEtf+acHD////N/////////////////83///+acJr/tebN/+i0mv+atOj//+a1////////////g5vN///mtf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////83////Nm5r/////////////////mpvN////zf+azf//6LSD/////////////////4Obzf//5rX/cJvN/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw///Nmv+azf///82a/////////////////////////////////4O06P9wcHD/cHBw/3BwcP9wcHD/cHBw/3BwcP+1hHD////o//////+azf//mpuD/5qbmv+1hIP/g7TN/3BwcP9wcHD/cHBw/3BwcP+acHD/6P/N///m6P//////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf//cHBw/3BwcP9wcHD/cHBw/4NwcP//5rX/mpvN////zf+azf//6LSD/////////////////4Obzf//5rX///////////////////////////////////////////+azf///82a///////o////cIS1/3BwcP9wcHD/tYRw////6P///////////5rN///otIP////////////////////////////o////cIS1/4NwcP//5rX///////////////////////////+15v//mnCD////zf//////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf//tbSa/5pwg////83/g5vN/5qbmv+1m5r/cJua/3BwcP9wcHD/cHBw/5pwcP///83//////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a/////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr/////////////////g7To/+i0g///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf///82a/83///9wcJr//82a/5q06P+1zbX/mnCD////zf+azf//6LSD/////////////////4Obzf//5rX///////////+DtOj//82a/4O06P//zZr///////////+azf///82a///////o////cIS1/3BwcP9wcHD/tYRw/83/6P/Nm5r//////5rN///otIP//////4O06P//zZr//////4O06P9wcHD/cHBw/3BwcP+DcHD/mrS1/3BwcP9wcHD/cHBw/3BwcP9wcHD/tYRw////6P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+azf//zc2a/5pwmv///83/tbTN/5q0zf//5rX/cJvN/3BwcP9wcHD/cHBw/5pwcP///83//////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a/////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr/////////////////teb//+i0mv//////ms3//+i0g//////////////////N////tYSa////6P//////////////////////////////////////////////////////////////////////z8/P/////////////////////////////////////////////////////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP/Nm3D/ms3////Nmv/N////tYSa////6P///////////4Obzf//5rX///////////+DtOj//82a/4O06P//zZr///////////+azf///82a//////+15v//cHCD/3BwcP9wcHD/cHBw/83Nmv/Nm5r//////5rN///otIP//////4O06P//zZr//////7Xm//9wcIP/cHBw/82bcP//////ms3//+i0g//////////////////N////tYSa////6P//////////////////////////////////////////////////////////////////////cHBw/////////////////////////////////////////////////////////////////////////////////////////////////7Xm//+1hIP////o////////////zf///82bmv+DtOj//82a/////////////////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a////////////6P///3CEtf/otIP//////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr//////////////////////5rN//+acHD/ms3N/3BwcP9wcHD/cHBw/3BwcP9wcHD/tYRw////6P//////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z8/P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////" v_xOffsetAdjustment="20" v_YOffsetAdjustment="20" v_MouseClick="Left Click" v_TimeoutSeconds="30">
+        <TestMode>false</TestMode>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="1e4f7c8b-3d19-46d7-988c-7b039854da6f" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="24" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Control [ControlKey]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048562" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Key>F4 [F4]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="3cc4964d-a335-4e87-8412-60bf726acae9" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="25" PauseBeforeExeucution="false" v_Comment="測驗的區塊" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="7d034814-7e14-4bd8-8bdc-70014b23ff13" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="false" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="26" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Name or ID" v_FrameParameter="mooc_sysbar" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="cf96208e-15d7-4b01-a2f7-008f41f9a9a6" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="27" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;SYS_04_02_002&quot;]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.021536" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="WebActionParamTable012325.021536">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="a9d876d1-d587-42ba-9fb6-11dfcad21d55" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="false" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="28" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Default Content" v_FrameParameter="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="63dc0c17-232b-4349-8b07-8249c5698f18" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="false" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="29" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Name or ID" v_FrameParameter="s_main" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="609815c3-5a9a-4442-8a4a-e3dd8fbdc483" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="30" PauseBeforeExeucution="false" v_Comment="進行測驗" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="/html/body/div/div[2]/div/div[2]/div/div[1]/div/div[1]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.021827">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.021827" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.021827" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseCommand" CommandID="3adbe463-6ae9-4703-97ca-f00db17ba3c8" CommandName="PauseCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="31" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchWindowCommand" CommandID="442a5165-2e5b-4680-b025-65c49ec0edaa" CommandName="SeleniumBrowserSwitchWindowCommand" IsCommented="false" SelectionName="Switch Browser Window" DefaultPause="0" LineNumber="32" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_WindowMatchType="Window Title" v_MatchSpecification="Exact Match" v_CaseSensitiveMatch="No" v_MatchParameter="進行測驗" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="38efe431-acd3-4eb0-ac79-e3e9f605e815" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="33" PauseBeforeExeucution="false" v_Comment="開始作答" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;presentPanel&quot;]/table/tbody/tr[2]/td/form/table/tbody/tr[17]/td/input[1]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022012">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022012" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022012" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="BeginNumberOfTimesLoopCommand" CommandID="8c1db77c-baf2-4d96-a5a1-46ecf4dd1f38" CommandName="BeginNumberOfTimesLoopCommand" IsCommented="false" SelectionName="Loop Number Of Times" DefaultPause="0" LineNumber="34" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="10" v_LoopStart="0" />
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="898a7073-d4a0-4a0c-8633-39c1631c0b76" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="35" PauseBeforeExeucution="false" v_Comment="通常有10題，取得題目後交給AI答題 XD" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="42d9ff92-c994-4159-82ba-9e9d133428ab" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="36" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;responseForm&quot;]/table/tbody/tr[{Loop.CurrentIndex}]/td[3]">
+          <v_SeleniumElementAction>Get Attribute</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.032300" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="WebActionParamTable012325.032300">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                          <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <WebActionParamTable012325.032300 diffgr:id="WebActionParamTable012325.0323001" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Name>Attribute Name</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>innerHTML</Parameter_x0020_Value>
+                </WebActionParamTable012325.032300>
+                <WebActionParamTable012325.032300 diffgr:id="WebActionParamTable012325.0323002" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Name>Variable Name</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>{vTmp}</Parameter_x0020_Value>
+                </WebActionParamTable012325.032300>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="b7f0cbd6-ab38-423d-8e57-0b2f736d2058" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="37" PauseBeforeExeucution="false" v_Comment="題目答案有點亂，先濾掉AI無法接受的字" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="StringReplaceCommand" CommandID="0f0df472-304f-4b41-bb77-de3d6d94b172" CommandName="StringReplaceCommand" IsCommented="false" SelectionName="Replace Text" DefaultPause="0" LineNumber="38" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp" v_replacementText="&quot;" v_replacementValue="\&quot;" v_applyToVariableName="vTmp" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="StringReplaceCommand" CommandID="6dc8455c-eb17-45f6-b8fc-a8baa9f94962" CommandName="StringReplaceCommand" IsCommented="false" SelectionName="Replace Text" DefaultPause="0" LineNumber="39" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp" v_replacementText="/" v_replacementValue="\/" v_applyToVariableName="vTmp" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="StringReplaceCommand" CommandID="15a421bd-a1de-43ed-853c-c9d0022a2ec6" CommandName="StringReplaceCommand" IsCommented="false" SelectionName="Replace Text" DefaultPause="0" LineNumber="40" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp" v_replacementText="&#x9;" v_replacementValue="" v_applyToVariableName="vTmp" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="StringSplitCommand" CommandID="77e1fb86-6a77-433b-8126-67e2987723cb" CommandName="StringSplitCommand" IsCommented="false" SelectionName="Split Text" DefaultPause="0" LineNumber="41" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp" v_splitCharacter="[crLF]" v_applyConvertToUserVariableName="vTmp" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="4c3972ad-a9ce-4093-85fe-94a562a2f27d" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="42" PauseBeforeExeucution="false" v_Comment="拆掉\\r之後重新組合字串" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="VariableCommand" CommandID="065906b8-4d93-4fd8-bb90-58287e0f67d5" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="0" LineNumber="43" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp2" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="BeginListLoopCommand" CommandID="605c79b2-6db3-4ae8-844c-918a6d6f360d" CommandName="BeginListLoopCommand" IsCommented="false" SelectionName="Loop List" DefaultPause="0" LineNumber="44" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="{vTmp}" />
+        <AdditionalScriptCommands>
+          <ScriptCommand xsi:type="VariableCommand" CommandID="5a5c51dd-60f7-41de-aaee-819e0140843c" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="0" LineNumber="45" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vTmp2" v_Input="{vTmp2}{vTmp}" />
+        </AdditionalScriptCommands>
+        <AdditionalScriptCommands>
+          <ScriptCommand xsi:type="EndLoopCommand" CommandID="ec3369d9-2356-4ed1-91a6-a626988915c3" CommandName="EndLoopCommand" IsCommented="false" SelectionName="End Loop" DefaultPause="0" LineNumber="46" PauseBeforeExeucution="false" CommandEnabled="true" />
+        </AdditionalScriptCommands>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="4760793f-eeee-4f48-864b-b8664d37b524" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="47" PauseBeforeExeucution="false" v_Comment="{vTmp}" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="VariableCommand" CommandID="69295d03-f768-4920-8643-d634d8032bfd" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="0" LineNumber="48" PauseBeforeExeucution="false" v_Comment="AI提示詞" CommandEnabled="true" v_userVariableName="vQ" v_Input="{vTmp2}\\n請閱讀問題並正確答案，回答時只要告訴我答案的編號就好，例如1、2、3；不知道答案的話就隨機回答1或2。" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="0c1f8223-826e-4900-b006-9baf53496061" CommandName="MessageBoxCommand" IsCommented="true" SelectionName="Show Message" DefaultPause="0" LineNumber="49" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="{vQ}" v_AutoCloseAfter="0" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="8b8e66ec-9dea-47d6-9590-aac55ea36bfc" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="50" PauseBeforeExeucution="false" v_Comment="設定API的header及body（還有key）" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="RESTCommand" CommandID="83f57851-73ad-43fb-ad3c-1f9ea95a24fd" CommandName="RESTCommand" IsCommented="false" SelectionName="Execute REST API" DefaultPause="0" LineNumber="51" PauseBeforeExeucution="false" CommandEnabled="true" v_BaseURL="https://api.groq.com" v_APIEndPoint="/openai/v1/chat/completions" v_APIMethodType="POST" v_userVariableName="vRst" v_RequestFormat="Json">
+          <v_AdvancedParameters>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="A22vRESTPara9Table012225.030923">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                    <xs:element name="Content_x0020_Type" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Type" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="A22vRESTPara9Table012225.030923" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="A22vRESTPara9Table012225.030923" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <A22vRESTPara9Table012225.030923 diffgr:id="A22vRESTPara9Table012225.0309231" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Name>application/json</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>{"model": "llama-3.1-70b-versatile", "messages": [{"role": "system", "content": "You are a POWERFULL and Intelligent AI assistant."}, {"role": "user", "content": "{vQ}"}], "temperature": 0.7}</Parameter_x0020_Value>
+                  <Content_x0020_Type>application/json</Content_x0020_Type>
+                  <Parameter_x0020_Type>RequestBody</Parameter_x0020_Type>
+                </A22vRESTPara9Table012225.030923>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_AdvancedParameters>
+          <v_RESTParameters>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="RESTPara9Table012225.030923">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Type" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="RESTPara9Table012225.030923" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="RESTPara9Table012225.030923" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <RESTPara9Table012225.030923 diffgr:id="RESTPara9Table012225.0309231" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Type>HEADER</Parameter_x0020_Type>
+                  <Parameter_x0020_Name>Authorization</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>Bearer gsk_PemmmAl</Parameter_x0020_Value>
+                </RESTPara9Table012225.030923>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_RESTParameters>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="ac8fe998-9137-43a1-b375-06fef770d766" CommandName="MessageBoxCommand" IsCommented="true" SelectionName="Show Message" DefaultPause="0" LineNumber="52" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="{vRst}" v_AutoCloseAfter="0" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="ParseJsonCommand" CommandID="76801349-627b-4041-a949-1763d951514f" CommandName="ParseJsonCommand" IsCommented="false" SelectionName="Parse JSON Item" DefaultPause="0" LineNumber="53" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="{vRst}" v_JsonExtractor="$.choices[0].message.content" v_applyToVariableName="vRtn" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="71a4b00e-78b7-4ebe-8497-373b47abe3ba" CommandName="MessageBoxCommand" IsCommented="true" SelectionName="Show Message" DefaultPause="0" LineNumber="54" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="{vRtn}" v_AutoCloseAfter="0" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="CommentCommand" CommandID="3152288f-9117-4400-a40b-d9260c85e110" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="55" PauseBeforeExeucution="false" v_Comment="End Import From 0.aiTest.xml @ 2025/1/23 下午 03:33:58" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="81b08d6d-ac5c-42bd-93fe-bd8ca5eed2b5" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="56" PauseBeforeExeucution="false" v_Comment="根據AI的回答選擇答案" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;responseForm&quot;]/table/tbody/tr[{Loop.CurrentIndex}]/td[3]/ol/li[{vRtn}]/span/input">
+          <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable012325.032300">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.032300" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable012325.032300" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="EndLoopCommand" CommandID="54b5809c-1c77-4d81-9ed1-02c56e972e12" CommandName="EndLoopCommand" IsCommented="false" SelectionName="End Loop" DefaultPause="0" LineNumber="57" PauseBeforeExeucution="false" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="4a582bc3-1191-4ae7-ad70-fca47d6d39ed" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="58" PauseBeforeExeucution="false" v_Comment="送出答案" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;responseForm&quot;]/table/tbody/tr[11]/td/input[1]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.044456" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="WebActionParamTable012325.044456">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="455192b7-60df-45e1-b041-e33245436d4f" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="false" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="59" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="進行測驗">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="40554ff4-8271-45ad-9d17-44a3f1dba3dd" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="false" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="60" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="進行測驗">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CloseWindowCommand" CommandID="28925487-3e3a-4e97-8f60-1084f2b1b642" CommandName="CloseWindowCommand" IsCommented="false" SelectionName="Close Window" DefaultPause="0" LineNumber="61" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="elearn.hrd.gov.tw/learn/exam/" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="e0268aa5-5c1d-4336-8cb1-94b5133831f0" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="62" PauseBeforeExeucution="false" v_Comment="問卷的區塊" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="a83168ed-303b-4b4b-b5d5-d887518410af" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="true" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="63" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Name or ID" v_FrameParameter="mooc_sysbar" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="bb7910cb-9263-4685-8137-02fc9536a4bd" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="64" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;SYS_04_02_003&quot;]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.021536">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.021536" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.021536" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="9b4d8b3a-e8a9-467a-9e92-bd832793f79a" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="true" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="65" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Default Content" v_FrameParameter="0" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchFrameCommand" CommandID="8692e37e-9a39-4054-8fab-c5e30c58e330" CommandName="SeleniumBrowserSwitchFrameCommand" IsCommented="true" SelectionName="Switch Browser Frame" DefaultPause="0" LineNumber="66" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SelectionType="Name or ID" v_FrameParameter="s_main" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="31839b59-e7b4-4a98-81c5-821b1bde0654" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="67" PauseBeforeExeucution="false" v_Comment="填寫問卷" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="/html/body/div/div[2]/div/div[3]/div/div[1]/div/div[1]">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.021827">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.021827" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.021827" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseCommand" CommandID="2bd0cc43-fea0-433b-b178-10ceb9996cff" CommandName="PauseCommand" IsCommented="true" SelectionName="Pause Script" DefaultPause="0" LineNumber="68" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="2000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSwitchWindowCommand" CommandID="cadcdac3-27ce-445d-8a94-11fdcc8951c3" CommandName="SeleniumBrowserSwitchWindowCommand" IsCommented="true" SelectionName="Switch Browser Window" DefaultPause="0" LineNumber="69" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_WindowMatchType="Window Title" v_MatchSpecification="Exact Match" v_CaseSensitiveMatch="No" v_MatchParameter="問卷" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="21fd3f58-3abd-44d4-a2ea-d2fa4d5b05aa" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="70" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;homeworkDisplayPanel&quot;]/table/tbody/tr[1]/td[3]/ol/li[3]/span/input">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022939">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022939" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022939" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="0a705bb6-b490-4103-a4a1-d02366c09a12" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="71" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;homeworkDisplayPanel&quot;]/table/tbody/tr[2]/td[3]/ol/li[3]/span/input">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022939">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022939" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022939" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="3e2559e0-c9ad-4592-b96e-0839c5177f8c" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="72" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;homeworkDisplayPanel&quot;]/table/tbody/tr[3]/td[3]/ol/li[3]/span/input">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022939">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022939" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022939" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="d69d29e4-91d6-41e6-a395-01398c80d0b9" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="73" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;homeworkDisplayPanel&quot;]/table/tbody/tr[4]/td[3]/ol/li[3]/span/input">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022939">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022939" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022939" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="f6f24ee8-c82c-4fb1-ab3f-b82dbfb32f5a" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="74" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="/html/body/table/tbody/tr[2]/td/form/table/tbody/tr[4]/td[2]/table/tbody/tr/td[2]/input">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable012325.022939">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable012325.022939" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable012325.022939" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="5dc716d5-5061-432e-889f-9a89c763d3a0" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="75" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="問卷">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="f6515215-c878-420f-936a-c2edc6f95492" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="76" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="Current Window">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="44ce16e4-61a6-4d17-82da-b02680376946" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="77" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="問卷">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Control [ControlKey]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048562" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Key>F4 [F4]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="ImageRecognitionCommand" CommandID="435f5be4-fef0-486d-843a-7e254108969d" CommandName="ImageRecognitionCommand" IsCommented="true" SelectionName="Image Recognition" DefaultPause="0" LineNumber="78" PauseBeforeExeucution="false" CommandEnabled="true" v_ImageCapture="Qk1WNwAAAAAAADYAAAAoAAAAVAAAACoAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z8/P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+DtOj//82a////////////cJvN/3BwcP//zZr/mpvN////zf///////////////////////////4Obzf//5rX/g7To/82bcP///////////83///+1hJr/zf/o/3Bwmv9wcHD//82a////////////mpvN////zf/N////zZua/////////////////5rN///otIP/////////////////////////////////teb//+i0mv+15v//cHCD/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw/82bcP//////////////////////////////////////////////////////////////////////oKCg//////////////////////////////////////////////////////////////////////////////////////+DtOj/cHBw/3BwcP+DcHD//+a1/5rN///otIP/cJvN/3BwcP9wcHD/cHBw/4NwcP//5rX//////4Obzf//5rX//////4O06P/otIP//////83///+1hJr////o//////+azf///82a////////////cJvN/3BwcP9wcHD/tZtw/4OEtf//5rX//////5rN///otIP//////83///+1hJr////o////////////teb//+i0mv//////////////////////g5vN///mtf//////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+DtOj/6M2a/5qEtf/o/83/g4S1/5q0tf/otIP/mpvN////zf+azf//6LSD/////////////////4Obzf//5rX//////83///+1hJr////o/83///+1hJr////o//////+azf///82a////////////mpvN////zf/N////zZua/+j///9whLX//82a/5rN///otIP/teb//5pwg////83/////////////////teb//+i0mv//////////////////////g5vN///mtf//////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+DtOj//82a/5q06P//5rX//////5rN///otIP/mpvN////zf+azf//6LSD/////////////////4Obzf+1zbX/cHCD/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw/5pwcP+azc3//82a////////////mpvN////zf/N////zZua////////////g5vN/5q0tf+1tIP/tYSa////6P///////////5rN////zZr/teb//+i0mv//////cJvN/3BwcP9wcHD/cHBw/3BwcP9wcHD/g3Bw///mtf//////////////////////////////////////////////////////////////////////z8/P/////////////////////////////////////////////////////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP/otIP/cJvN/3BwcP9wcHD/cHBw/5pwcP///83//////4Obzf//5rX//////+j///+ahLX////N/83///+1hJr////o//////+azf///82a////////////cJvN/3BwcP9wcHD/zZtw////////////6P///3CEtf+acHD////N/////////////////83///+acJr/tebN/+i0mv+atOj//+a1////////////g5vN///mtf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////83////Nm5r/////////////////mpvN////zf+azf//6LSD/////////////////4Obzf//5rX/cJvN/3BwcP9wcHD/cHBw/3BwcP9wcHD/cHBw///Nmv+azf///82a/////////////////////////////////4O06P9wcHD/cHBw/3BwcP9wcHD/cHBw/3BwcP+1hHD////o//////+azf//mpuD/5qbmv+1hIP/g7TN/3BwcP9wcHD/cHBw/3BwcP+acHD/6P/N///m6P//////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf//cHBw/3BwcP9wcHD/cHBw/4NwcP//5rX/mpvN////zf+azf//6LSD/////////////////4Obzf//5rX///////////////////////////////////////////+azf///82a///////o////cIS1/3BwcP9wcHD/tYRw////6P///////////5rN///otIP////////////////////////////o////cIS1/4NwcP//5rX///////////////////////////+15v//mnCD////zf//////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf//tbSa/5pwg////83/g5vN/5qbmv+1m5r/cJua/3BwcP9wcHD/cHBw/5pwcP///83//////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a/////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr/////////////////g7To/+i0g///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw//////////////////////////////////////////////////////////////////////////////////////+azf///82a/83///9wcJr//82a/5q06P+1zbX/mnCD////zf+azf//6LSD/////////////////4Obzf//5rX///////////+DtOj//82a/4O06P//zZr///////////+azf///82a///////o////cIS1/3BwcP9wcHD/tYRw/83/6P/Nm5r//////5rN///otIP//////4O06P//zZr//////4O06P9wcHD/cHBw/3BwcP+DcHD/mrS1/3BwcP9wcHD/cHBw/3BwcP9wcHD/tYRw////6P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+azf//zc2a/5pwmv///83/tbTN/5q0zf//5rX/cJvN/3BwcP9wcHD/cHBw/5pwcP///83//////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a/////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr/////////////////teb//+i0mv//////ms3//+i0g//////////////////N////tYSa////6P//////////////////////////////////////////////////////////////////////z8/P/////////////////////////////////////////////////////////////////////////////////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP/Nm3D/ms3////Nmv/N////tYSa////6P///////////4Obzf//5rX///////////+DtOj//82a/4O06P//zZr///////////+azf///82a//////+15v//cHCD/3BwcP9wcHD/cHBw/83Nmv/Nm5r//////5rN///otIP//////4O06P//zZr//////7Xm//9wcIP/cHBw/82bcP//////ms3//+i0g//////////////////N////tYSa////6P//////////////////////////////////////////////////////////////////////cHBw/////////////////////////////////////////////////////////////////////////////////////////////////7Xm//+1hIP////o////////////zf///82bmv+DtOj//82a/////////////////3Cbzf9wcHD/cHBw/3BwcP9wcHD//82a/4O06P9wcHD/cHBw/3BwcP9wcHD//82a////////////6P///3CEtf/otIP//////83///9wcJr/cHBw/3BwcP9wcHD/cHBw/3BwcP//zZr//////////////////////5rN//+acHD/ms3N/3BwcP9wcHD/cHBw/3BwcP9wcHD/tYRw////6P//////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oKCg////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z8/P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////cHBw////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////" v_xOffsetAdjustment="20" v_YOffsetAdjustment="20" v_MouseClick="Left Click" v_TimeoutSeconds="30">
+        <TestMode>false</TestMode>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="9fe89e2c-d5bf-4178-815a-0411c673e803" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="true" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="79" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="{vTITLE}">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012325.104856">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012325.104856" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012325.104856" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048561" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Control [ControlKey]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+              <SendAdvancedKeyStrokesCommand012325.104856 diffgr:id="SendAdvancedKeyStrokesCommand012325.1048562" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Key>F4 [F4]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012325.104856>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+  </Commands>
+  <Variables>
+    <ScriptVariable>
+      <VariableName>vFrame</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>vQ</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>vRst</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>vRtn</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>vTmp</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>vTmp2</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+  </Variables>
+</Script>
